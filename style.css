@@ -1,0 +1,102 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.979);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 38%;
+    top: 10px;
+
+}
+
+h1 {
+    position: relative;
+    left: 20%;
+    margin: 0;
+    bottom: 20px;
+    color: rgb(189, 198, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 span {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.baground img {
+    width: 100%;
+    left: 0;
+    height: 100%;
+    margin-top: 0;
+    top: 0;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+
+    margin: right;
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    background: fixed;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+}
+
+nav ul li {
+
+    float: left;
+}
+
+nav ul li:hover a {
+    color: #000;
+    background: blueviolet;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #f321c6;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
